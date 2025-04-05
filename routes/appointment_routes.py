@@ -33,7 +33,7 @@ def create_appointment():
               description: Nome do local onde será feito o agendamento
             email:
               type: string
-              example: usuario@email.com
+              example: joao@email.com
               description: Email do usuário que está agendando
             start_time:
               type: string
@@ -62,7 +62,7 @@ def create_appointment():
                   example: 10
                 user:
                   type: string
-                  example: usuario@email.com
+                  example: joao@email.com
                 local:
                   type: string
                   example: Estacionamento x
