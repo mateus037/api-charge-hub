@@ -19,14 +19,7 @@ Este projeto é parte de um sistema Full Stack que permite que usuários cadastr
 
 ### 📦 Instalação e execução
 
-1. **Clone o repositório**
-
-```bash
-git clone https://github.com/seu-usuario/chargehub-backend.git
-cd chargehub-backend
-```
-
-2. **Crie e ative o ambiente virtual**.
+1. **Crie e ative o ambiente virtual**.
 > Windows
 ```bash
 python -m venv venv
@@ -37,11 +30,11 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 ```
-3. **Instale as dependências**
+2. **Instale as dependências**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Inicie o servidor**
+3. **Inicie o servidor**
 ```bash
 python app.py
 ```
