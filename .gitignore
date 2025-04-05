@@ -26,6 +26,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Arquivos do Python que não precisam ir para o repositório
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -172,3 +178,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Logs e arquivos temporários
+*.log
+*.sqlite3
+instance/
+
+# Sistema operacional (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
