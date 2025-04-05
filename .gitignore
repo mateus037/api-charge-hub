@@ -187,3 +187,4 @@ instance/
 # Sistema operacional (Windows, macOS, Linux)
 .DS_Store
 Thumbs.db
+database.db
